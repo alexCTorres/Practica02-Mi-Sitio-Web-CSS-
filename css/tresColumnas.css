@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/*alimentacion*/
+
+body.al{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+	min-width: 800px;
+}
+body.al header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+body.al nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+body.al article#alimentacion {
+	width: 51%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+body.al aside {
+	width: 20%;
+	float: left;
+	margin: 0 1.5% 0 0;
+}
+article#alimentacion{
+    float: left;
+	width: 74.5%;
+	margin: 0 4% 0 0%;
+}
+body.al footer {
+	width: 100%;
+	clear: left;
+}
+
+
+/*reptiles*/
+
+body.re{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+	min-width: 800px;
+}
+
+
+body.re header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+body.re nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+
+body.re article#reptiles {
+	width: 51%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
+
+body.re aside {
+	width: 20%;
+	float: left;
+	margin: 0 1.5% 0 0;
+}
+
+body.re footer {
+	width: 100%;
+	clear: left;
+}
+/*felinos*/
+body.fe{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+	min-width: 800px;
+}
+
+
+body.fe header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+body.fe nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+
+body.fe article#felinos {
+	width: 51%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
+
+body.fe aside {
+	width: 20%;
+	float: left;
+	margin: 0 1.5% 0 0;
+}
+
+body.fe footer {
+	width: 100%;
+	clear: left;
+}
+
+/*acuaticos*/
+body.ac{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+	min-width: 800px;
+}
+
+
+body.ac header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+body.ac nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+
+body.ac article#acuaticos {
+	width: 51%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
+
+body.ac aside {
+	width: 20%;
+	float: left;
+	margin: 0 1.5% 0 0;
+}
+
+body.ac footer {
+	width: 100%;
+	clear: left;
+}
+/*aves*/
+body.av{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+	min-width: 800px;
+}
+
+
+body.av header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+body.av nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+
+body.av article#avess {
+	width: 51%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
+
+body.av aside {
+	width: 20%;
+	float: left;
+	margin: 0 1.5% 0 0;
+}
+
+body.av footer {
+	width: 100%;
+	clear: left;
+}

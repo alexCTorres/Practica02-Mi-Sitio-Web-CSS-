@@ -1,0 +1,27 @@
+/*contacto*/
+body.co{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+	min-width: 800px;
+}
+
+
+body.co header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+body.co nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+
+
+
+body.co footer {
+	width: 100%;
+	clear: left;
+}

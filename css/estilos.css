@@ -1,0 +1,683 @@
+@charset "utf-8";
+
+/*h3*/
+h3{
+	color:ivory;
+	font-size: medium;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+	'Trebuchet MS', sans-serif;
+	text-transform: none;
+}
+
+/* pagina index*/
+html.index{
+    background-color:rgb(255, 255, 255) ;
+}
+div#main_wrapper{
+    text-align: center;
+}
+div#main_wrapper header {
+   margin: 0;
+   width: 100%;
+   overflow: hidden;
+   text-align: center;
+}
+
+div#main_wrapper article#info{
+   width: 70%;
+   float: left;
+   margin: 0 3% 0 3%;
+}
+div#main_wrapper aside {
+   width: 20%;
+   float: left;
+   margin: 0 1.5% 0 0;
+}
+div#main_wrapper footer {
+   width: 100%;
+   clear: left;
+   background-color: rgb(49, 85, 14);
+   color: white;
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+
+body.principal{   
+	background-color: rgb(255, 255, 255);
+	color: #0E0D0D;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+	min-width: 800px;
+	font-family: 'café molido Yanone', sans-serif;
+	}
+
+@font-face{
+	font-family: Quicksand;
+	src: url('Quicksand-Regular.woff')format('woff');
+	src: url('Quicksand-Regular.ttf')format('truetype');
+ }
+ html.index p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: justify;
+ }
+
+ aside.aside h3{
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	color: #ffffff; 
+	background-color: rgb(49, 85, 14);
+	font-size: 10pt;
+	text-decoration-line: line-through;
+ }
+ section h1#idx{
+	font-family: Quicksand, Verdana, Geneva, sans-serif, cursive;
+	text-transform: uppercase;
+	font-size: 30pt;  
+	color: rgb(49, 85, 14);
+}
+section article#info h2{
+color: #ffffff; 
+background-color: rgb(49, 85, 14);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, cursive;
+font-size: 18pt;
+}
+ul.horizontal li {
+   float: left; /*poner en horizontal*/
+
+}
+ul.horizontal li a {
+	padding: 0.9em; /*distancia entre letras*/
+	display: block;
+	text-decoration: #67da67;
+	color:rgb(241, 237, 237); 
+	background:  rgb(49, 85, 14);
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	letter-spacing: 0.1em;
+	overflow:visible;
+	position: relative;
+  }
+
+  ul.horizontal{
+	
+	overflow:hidden;
+	padding:10px 11px
+}
+
+ul.horizontal li a:hover {
+	background: rgb(255, 255, 255); /*animacion de fondo*/
+	color: rgb(49, 85, 14); /*letras de fondo*/
+	padding: 8px 15px 7px 30px; /*espacio en cada interaccion*/
+ }
+
+
+
+
+ /*pagina alimentacion*/
+
+ html.alimenta{
+    background-color: #998f0a;
+}
+body.al p{
+	font-size: 13pt;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.al section h1.titul{
+	font-family: cursive;
+	font-size: 30pt;
+	color: rgb(59, 48, 1);
+	text-align: center;
+	text-decoration-line: overline;
+	text-combine-upright: unset;
+}    
+/*Configuracion Aside*/
+body.al aside {
+	/*margen arriba y abajo de 20px, y derecha e izquierda 5px */
+	margin: 0px 5px;
+	quotes: "\201C" "\201D";
+ }
+ body.a1 aside p{
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+
+/*PSEUDOCODIGO EN HYPERVINCULOS*/
+/*antes de visitar*/
+nav ul.menuAl  li  a:link, nav  ul.menuAl  li  a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+ }
+ /*hypervinculo visitado*/
+nav ul.menuAl  li  a:hover, nav  ul.menuAl  li  a:active {
+	color: rgb(38, 153, 28);
+	text-decoration: none;
+}
+
+article#alimentacion h2{
+font-family: 'Courier New', Courier, monospace;
+color: #5f5f5f;
+text-align: left;
+}   
+
+body.al  h2{
+	color: #4b4a4a;
+	text-align: center;
+	text-decoration: underline;
+}
+body.al article#alimentacion ol.listaAl li{
+	color: rgb(77, 76, 76);
+}
+
+ul.menuAl li a {
+	padding: 5px; /*distancia entre letras*/
+	display: block;
+	text-decoration: rgb(103, 218, 103);
+	color:rgb(241, 237, 237); 
+	background:  rgb(44, 75, 13);
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	letter-spacing: 0.1em;
+    border-radius: 10px;
+    margin-right: 1px;
+  }
+  ul.menuAl{
+	
+	overflow:auto;
+	padding:10px 10px
+}
+ul.menuAl li a:hover {
+	background: #4e4d4d; /*animacion de fondo*/
+	color: rgb(49, 85, 14); /*letras de fondo*/
+	padding: 8px 15px 7px 30px; /*espacio en cada interaccion*/
+ }
+
+ 
+ body.al footer {
+	width: 100%;
+	clear: left;
+	background-color: rgb(49, 85, 14);
+	color: white;
+	color: rgb(255, 255, 255);
+	text-align: center;
+ }
+
+
+
+
+
+
+ /*paginaReptiles*/
+ html.reptiles{
+    background-color: rgb(82, 247, 96);
+}
+body.re article#reptiles p{
+	font-size: 12pt;
+	font-family: cursive;
+}
+body.re  h1.queSon{
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	font-size: 2em;
+	color: rgb(44, 75, 13);
+	font-style: oblique;
+	font-synthesis: style;
+	
+	
+}
+body.re article#reptiles h2{
+
+	font-family: monospace;
+	color: hsl(80, 44%, 11%);
+	font-size: 1.5em;
+}
+    /*poner numeros a la lista*/
+body.re article#reptiles ol.listaRe{
+	font-family: monospace;
+	font-size: 1.3em;
+	color: rgb(7, 97, 37);
+	list-style-type:lower-latin;
+}
+
+
+
+
+
+
+/*Configuracion Aside*/
+body.re aside blockquote{
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+	/*margen arriba y abajo de 20px, y derecha e izquierda 5px */
+	margin: 20px 5px;
+	quotes: "\201C" "\201D";
+	font-size: 1.2em;
+	 color: rgb(24, 78, 13);
+ }
+ body.re aside p{
+font-family: 'Courier New', Courier, monospace;
+font-size: 1em;
+	 color: rgb(24, 78, 13);
+ }
+ 
+ /*Poner comillas en el aside*/
+ body.re aside blockquote::before {
+	 content: open-quote;
+	 font-family: 'Times New Roman', Times, serif;
+	 font-size: 1.6em;
+	 font-weight: bold;
+	 }
+   body.re aside blockquote::after {
+		content: close-quote;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.6em;
+		font-weight: bold;
+		}
+ 
+/*PSEUDOCODIGO EN HYPERVINCULOS*/
+/*antes de visitar*/
+nav ul.menuRe  li  a:link, nav  ul.menuRe li  a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+ }
+ /*hypervinculo visitado*/
+nav ul.menuRe  li  a:link, nav  ul.menuRe  li  a:active {
+	color: rgb(38, 153, 28);
+	text-decoration: none;
+}
+body.re h2{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-language-override: normal;
+text-align: initial;
+text-decoration-line: initial;
+font-size: 15pt;
+color: rgb(68, 66, 66);
+}   
+ul.menuRe li a {
+	padding: 5px; /*distancia entre letras*/
+	display: block;
+	text-decoration: rgb(103, 218, 103);
+	color:rgb(241, 237, 237); 
+	background:  rgb(44, 75, 13);
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	letter-spacing: 0.1em;
+border-radius: 15px;
+margin-right: 1px;
+  }
+
+  ul.menuRe{
+	
+	overflow:auto;
+	padding:10px 10px
+}
+ul.menuRe li a:hover {
+	background: rgb(80, 79, 79); /*animacion de fondo*/
+	color: rgb(49, 85, 14); /*letras de fondo*/
+	padding: 8px 15px 7px 30px; /*espacio en cada interaccion*/
+ }
+ body.re footer {
+	width: 100%;
+	clear: left;
+	background-color: rgb(49, 85, 14);
+	color: white;
+	color: rgb(255, 255, 255);
+	text-align: center;
+ }
+
+
+
+ /*paginaFelinos*/
+ html.felinos{
+    background-color: rgb(158, 93, 19);
+}
+
+body.fe p{
+	font-size: 13pt;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body.fe  h1.queFe{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 2pc;
+	text-transform: capitalize;
+	
+	color: rgb(30, 49, 10);
+}
+body.fe article#felinos h2{
+
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: medium;
+	color: rgb(32, 53, 10);
+}
+/*poner numeros a la lista*/
+body.fe article#felinos ol.listaFe{
+	font-family: monospace;
+	font-size: 13pt;
+	color:  rgb(32, 53, 10);
+	list-style-type: upper-roman;
+}
+/*Configuracion Aside*/
+body.fe aside blockquote{
+	/*margen arriba y abajo de 20px, y derecha e izquierda 5px */
+	margin: 20px 5px;
+	quotes: "\201C" "\201D";
+	font-size: 1.2em;
+	 color: rgb(27, 46, 7);
+ }
+ body.fe aside p{
+	 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	 color: rgb(27, 46, 7);
+ }
+ 
+ /*Poner comillas en el aside*/
+ body.fe aside blockquote::before {
+	 content: open-quote;
+	 font-family: 'Times New Roman', Times, serif;
+	 font-size: 1.6em;
+	 font-weight: bold;
+	 }
+   body.fe aside blockquote::after {
+		content: close-quote;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.6em;
+		font-weight: bold;
+		}
+ 
+/*PSEUDOCODIGO EN HYPERVINCULOS*/
+/*antes de visitar*/
+nav ul.menuFe  li  a:link, nav  ul.menuFe li  a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+ }
+ /*hypervinculo visitado*/
+nav ul.menuFe  li  a:link, nav  ul.menuFe  li  a:active {
+	color: rgb(38, 153, 28);
+	text-decoration: none;
+}
+    
+body.fe h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(252, 250, 250);
+text-align: right;
+text-decoration-skip: unset;
+text-align: start;
+font-size: larger;
+}   
+
+
+ul.menuFe li a {
+	padding: 5px; /*distancia entre letras*/
+	display: block;
+	text-decoration: rgb(103, 218, 103);
+	color:rgb(241, 237, 237); 
+	background:  rgb(44, 75, 13);
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	letter-spacing: 0.1em;
+border-radius: 15px;
+margin-right: 1px;
+  }
+
+  ul.menuFe{
+	
+	overflow:auto;
+	padding:10px 10px
+}
+ul.menuFe li a:hover {
+	background: rgb(73, 71, 71); /*animacion de fondo*/
+	color: rgb(49, 85, 14); /*letras de fondo*/
+	padding: 8px 15px 7px 30px; /*espacio en cada interaccion*/
+ }
+ body.fe footer {
+	width: 100%;
+	clear: left;
+	background-color: rgb(49, 85, 14);
+	color: white;
+	color: rgb(255, 255, 255);
+	text-align: center;
+ }
+
+
+
+
+ /*paginaAcuaticos*/
+ html.acuaticos{
+    background-color: rgb(28, 11, 77);
+}
+body.ac  h1.queAc{
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	font-size: xx-large;
+	color: rgb(157, 230, 13);
+	text-align: unset;
+}
+body.ac article#acuaticos h2{
+
+	font-family: monospace;
+	font-size: 15pt;
+	color: rgb(75, 177, 224);
+}
+/*poner numeros a la lista*/
+body.ac article#acuaticos li{
+	font-family: monospace;
+	font-size: 15pt;
+	color: rgb(75, 177, 224);
+	list-style-type: decimal;
+}
+body.ac aside{
+	/*margen arriba y abajo de 20px, y derecha e izquierda 5px */
+	margin: 20px 5px;
+	quotes: "\201C" "\201D";
+
+ }
+/*PSEUDOCODIGO EN HYPERVINCULOS*/
+/*antes de visitar*/
+nav ul.menuAc  li  a:link, nav  ul.menuAc  li  a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+ }
+ /*hypervinculo visitado*/
+nav ul.menuAc  li  a:link, nav  ul.menuAc  li  a:active {
+	color: rgb(38, 153, 28);
+	text-decoration: none;
+}
+html.acuaticos p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(241, 237, 237); 
+
+}   
+h2{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(75, 177, 224);
+font-size: 12pt; 
+}
+html.acuaticos aside blockquote{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(241, 237, 237); 	
+}
+ul.menuAc li a {
+	padding: 5px; /*distancia entre letras*/
+	display: block;
+	text-decoration: rgb(103, 218, 103);
+	color:rgb(241, 237, 237); 
+	background:  rgb(44, 75, 13);
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	letter-spacing: 0.1em;
+border-radius: 15px;
+margin-right: 1px;
+  }
+
+  ul.menuAc{
+	
+	overflow:auto;
+	padding:10px 10px
+}
+ul.menuAc li a:hover {
+	background: rgb(105, 107, 106); /*animacion de fondo*/
+	color: rgb(49, 85, 14); /*letras de fondo*/
+	padding: 8px 15px 7px 30px; /*espacio en cada interaccion*/
+ }
+ body.ac footer {
+	width: 100%;
+	clear: left;
+	background-color: rgb(49, 85, 14);
+	color: white;
+	color: rgb(255, 255, 255);
+	text-align: center;
+ }
+
+
+
+
+  /*paginaAves*/
+
+  html.aves{
+    background-color: rgb(49, 48, 49) ;
+}
+body.av h1.avv{
+
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	font-size:30pt;
+	color: rgb(252, 102, 42);
+	text-decoration-line: none;
+    font-feature-settings: inherit;
+}
+/*Configuracion Aside*/
+body.av aside blockquote{
+   /*margen arriba y abajo de 20px, y derecha e izquierda 5px */
+   margin: 20px 5px;
+   quotes: "\201C" "\201D";
+   font-size: 1em;
+	color: rgb(252, 102, 42);
+}
+
+/*Poner comillas en el aside*/
+body.av aside blockquote::before {
+	content: open-quote;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	}
+  body.av aside blockquote::after {
+	   content: close-quote;
+	   font-family: 'Times New Roman', Times, serif;
+	   font-size: 1.6em;
+	   font-weight: bold;
+	   }
+
+/*poner numeros a la lista*/
+body.av article#avess ol.listaAv{
+	font-family: monospace;
+	font-size: 15pt;
+	color: rgb(125, 187, 112);
+	list-style-type: upper-latin;
+}
+/*PSEUDOCODIGO EN HYPERVINCULOS*/
+/*antes de visitar*/
+nav ul.menuAv li  a:link, nav  ul.menuAv  li  a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+ }
+ /*hypervinculo visitado*/
+nav ul.menuAv  li  a:link, nav  ul.menuAv  li  a:active {
+	color: rgb(38, 153, 28);
+	text-decoration: none;
+}    
+html.aves  p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(241, 237, 237); 
+
+}   
+body.av h2{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(125, 187, 112);
+font-size: 12pt; 
+}
+
+ul.menuAv li a {
+	padding: 5px; /*distancia entre letras*/
+	display: block;
+	text-decoration: rgb(103, 218, 103);
+	color:rgb(241, 237, 237); 
+	background:  rgb(44, 75, 13);
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	letter-spacing: 0.1em;
+border-radius: 15px;
+margin-right: 1px;
+  }
+
+  ul.menuAv{
+	
+	overflow:auto;
+	padding:10px 10px
+}
+ul.menuAv li a:hover {
+	background: rgb(80, 79, 79); /*animacion de fondo*/
+	color: rgb(49, 85, 14); /*letras de fondo*/
+	padding: 8px 15px 7px 30px; /*espacio en cada interaccion*/
+ }
+ body.av footer {
+	width: 100%;
+	clear: left;
+	background-color: rgb(49, 85, 14);
+	color: white;
+	color: rgb(255, 255, 255);
+	text-align: center;
+ }
+
+
+
+
+  /*paginaContactos*/
+
+  html.contactos{
+    background-color: rgb(255, 255, 255) ;
+}
+body.co h1.cont{
+color: rgb(73, 129, 8);
+text-align: center;
+font-size: 2vmax;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-transform: lowercase;
+}
+
+body.co p{
+	font-family: Quicksand, Verdana, Geneva, sans-serif; 
+	font-size: 13pt;
+	text-align: justify;
+}
+body.co form{
+	text-align: justify;
+}
+
+body.co section.contenido label{
+	color: brown;
+}
+body.co  h2{
+	text-align: justify;
+	font-size: 15pt;
+	color: #498108;;
+}
+ul.menuCo li a {
+	padding: 5px; /*distancia entre letras*/
+	display: block;
+	text-decoration: rgb(103, 218, 103);
+	color:rgb(241, 237, 237); 
+	background:  rgb(44, 75, 13);
+	font-family: Quicksand, Verdana, Geneva, sans-serif;  
+	letter-spacing: 0.1em;
+border-radius: 15px;
+margin-right: 1px;
+  }
+
+  ul.menuCo{
+	
+	overflow:auto;
+	padding:10px 10px
+}
+ul.menuCo li a:hover {
+	background: rgb(255, 255, 255); /*animacion de fondo*/
+	color: rgb(49, 85, 14); /*letras de fondo*/
+	padding: 8px 15px 7px 30px; /*espacio en cada interaccion*/
+ }
+ body.co footer {
+	width: 100%;
+	clear: left;
+	background-color: rgb(49, 85, 14);
+	color: white;
+	color: rgb(255, 255, 255);
+	text-align: center;
+ }
